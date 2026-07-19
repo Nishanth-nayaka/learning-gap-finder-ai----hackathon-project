@@ -8,38 +8,61 @@
         <link rel="stylesheet" href="styles.css">
 
     </head>
-    <body class="main-container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <body >
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #F4FBF7;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                 <a class="navbar-brand" href="#">Learning Gap Finder AI</a>
+                <a class="navbar-brand" href="#">
+                    <img src="images\logo.jpg"
+                       alt="Logo" class="image1">
+                </a>
+                 <a class="navbar-brand" href="#">GapLens AI</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <div class="navbar-nav  mr-4"style="margin-left: auto;">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">About</a>
-                    <a class="nav-link" href="#">Try Now</a>
+                    <a class="nav-link active" href="#how-it-works-section">How It Works</a>
+                    <a class="nav-link active" style="background-color:#30ca69; color:white; border-radius: 10px;" onclick="window.location.href='input-page.html'">Try Now</a>
                 </div>
                 </div>
             </div>
         </nav>
 
-        <div class="container-fluid" >
+        <div class="container mt-5" >
             <div class="row" >
-                <div class="hero-head-container col-lg-6">
-                    <div class="hero-head">Know What to Learn First</div>
-                    <div class="hero-subhead">AI analyzes your topic and generates the prerequisite concepts you need before diving into advanced learning.</div>
-                    <button class="button1">Try It..</button>
+                <div class="hero-head-container col-12 col-lg-6">
+                    <div class="hero-head mb-4" >See what you're missing before you learn.</div>
+                    <div class="hero-subhead">AI analyzes your topic and reveals the prerequisite concepts you need before diving into advanced learning.</div>
+                    <ul class="hero-subhead" style="list-style-type: '✓'">
+                        <li>AI Powered</li>
+                        <li>Personalized Learning Paths</li>
+                        <li>Beginner Friendly</li>
+                    </ul>
+                    <button class="button1" onclick="window.location.href='input-page.html'">Try It..</button>
                 </div>
                 
-                <div class="hero-image col-lg-6">
-                    <img src=" D:\Projects\learning-gap-finder ai--- hackathon project\images\heroimage.jpg" class="image1"/>
+                <div class="hero-image col-12 col-lg-6">
+                    <img src="images\heroimage.jpg" class="heroimage1"/>
                  </div>
             </div>
+            <hr class="hr1">
+            <div id="how-it-works-section" class="see-how-it-works-section">
+                <h1 class="hero-head">See how it works</h1>
+                <p  class="hero-subhead"> 1. Enter a topic of interest</p>
+                <p  class="hero-subhead"> 2. AI analyzes the topic and identifies prerequisite concepts</p>
+                <p  class="hero-subhead"> 3. You receive a personalized learning path</p>
+            </div>
+            <hr class="hr1">
+            <div class="whyusethis-section">
+                <h1 class="hero-head">Why use this?</h1>
+                <p class="hero-subhead">Learning Gap Finder AI helps you identify the essential concepts you need to understand before diving into advanced topics. It saves time, enhances learning efficiency, and ensures a solid foundation for your educational journey.</p>
+             </div>
+             <hr class="hr1">
+             <div class="footer-section footer-text">
+                <p class="footer-text">© 2026 GapLens AI. All rights reserved.</p>
+             </div>
         </div>
-
 
 
         <!....bootstrap js.....>

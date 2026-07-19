@@ -1,5 +1,82 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #bde7e2;
+}
+
 .main-container{
     height: 100vh;
     width: 100vh;
-    background-color: white
+    background-color: #F4FBF7;
+}
+.image1{
+    height:60px;
+    width:60px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.heroimage1{
+   max-width:100%;
+    height:auto;
+    border-radius: 10px;
+    padding-top:20px;
+}
+.hero-head{
+    color: #2563EB;
+    font-size: 58px;
+    font-weight:bold;
+    line-height:1.2;
+}
+.button1{
+    background-color: #2563EB;
+    color: white;
+    border-radius: 10px;
+    padding:14px 28px;
+    font-size: 20px;
+    text-decoration: none;
+    border:0px;    
+    margin: 20px 50px 20px 20px;
+}
+.button1:hover{
+    background:#A855F7;
+    transition:.3s;
+}
+.hr1{
+    border-top:2px solid #16A34A;
+    opacity:0.5;
+}
+
+.footer-section{
+    background:#2563EB;
+    padding:25px;
+    text-align:center;
+    border-radius:10px 10px 0 0;
+    margin-top:60px;
+
+}
+.footer-text{
+    color:white;
+    font-size:15px;
+    margin:0px;
+}
+.hero-subhead{
+    margin-top:20px;
+    margin-bottom:10px;
+    font-size:22px;
+    color:#355070;
+}
+.navbar-brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+}
+.result-box{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    white-space:pre-wrap;
+    min-height:150px;
 }
