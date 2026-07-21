@@ -29,8 +29,8 @@ GapLens AI is an AI-powered web application that helps learners identify prerequ
 
 ## Live Demo
 
-(Add your Vercel deployment link here.)
+https://gaplens-ai.vercel.app/
 
 ## Author
 
-Nishanth
+Nishanth Nayaka R
